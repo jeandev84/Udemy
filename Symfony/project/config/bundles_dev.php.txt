@@ -1,0 +1,6 @@
+<?php
+FOR LOADING SPECIFICALLY FROM ENVIRONMENT DEV _dev, _test
+return [
+    Symfony\Bundle\FrameworkBundle\FrameworkBundle::class => ['all' => true],
+    Symfony\Bundle\WebServerBundle\WebServerBundle::class => ['dev' => true],
+];
